@@ -1,0 +1,60 @@
+.form-container {
+  border: 1px solid;
+  border-color: #e5e7eb;
+  border-radius: 20px;
+  padding: 75px 45px 60px 45px;
+  width: 800px;
+  height: 75vh;
+}
+
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: auto;
+  height: auto;
+  padding: 40px 20px 0px 20px;
+  margin-top: 25px;
+}
+
+label {
+  text-align: left;
+  font-size: 20px;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: #e5e7eb;
+  background: #f9fafb;
+  font-size: 16px;
+}
+
+button {
+  margin: 3rem 0;
+  border: none;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: stretch;
+  border-radius: 12px;
+  font-size: 20px;
+  color: black;
+}
+
+.btnRegister {
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+}
